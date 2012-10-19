@@ -32,10 +32,10 @@ Then we can get going:
       include_any C
     end
 
-    D.ancestors
-    #=> [C, Object, Kernel, BasicObject]
+    D.ancestors.include? C
+    #=> true
 
-    D.new.f
+    D.new.foo
     #=> "bar!"
 
 Well would you look at that! We’ve included a `Class`. Magical!
@@ -47,6 +47,8 @@ Use at your own risk, kids.
 - Currently seg faults if passed anything but a `Class` or `Module`. It should
   accept (most) any object.
 - Will probably fail to install or seg fault under anything but MRI 1.9.3
+
+See the issues for more.
 
 ## Contributing
 
