@@ -13,7 +13,7 @@ or include it in your Gemfile as usual.
 
 ## Usage
 
-The method of interest here is `IncludeAny.include_any`. By default this is not
+The method of interest here is `IncludeAny#include_any`. By default this is not
 mixed-in anywhere, but doing
 
     require 'include_any/core_ext'
