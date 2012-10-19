@@ -17,4 +17,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   gem.extensions    = ['ext/include_any/extconf.rb']
+
+  gem.add_development_dependency 'bundler', '>= 1.2'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rake-compiler'
+  gem.add_development_dependency 'rspec', '>= 2.0.0'
 end
