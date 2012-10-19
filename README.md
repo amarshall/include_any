@@ -1,5 +1,7 @@
 # IncludeAny
 
+[![Build Status](https://secure.travis-ci.org/amarshall/include_any.png)](http://travis-ci.org/amarshall/include_any)
+
 Allows including any object, not just modules. Of course, this is just in
 theory—see “Bugs & Caveats” below.
 
