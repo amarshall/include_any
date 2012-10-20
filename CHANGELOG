@@ -1,0 +1,9 @@
+# IncludeAny Change Log
+
+## v0.0.2
+- Core extensions now make `include_any` in `Class` & `Module` private.
+- Improve documentation.
+- Add tests.
+
+## v0.0.1
+- First release.
