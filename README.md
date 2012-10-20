@@ -44,11 +44,13 @@ Well would you look at that! We’ve included a `Class`. Magical!
 
 ## Bugs & Caveats
 
-Use at your own risk, kids.
+Use at your own risk, kids. I would strongly recommend against using this in
+production code; it modifies the very core of Ruby's core, and if something
+goes wrong it will do so spectacuarly.
 
 - Currently seg faults if passed anything but a `Class` or `Module`. It should
   accept (most) any object.
-- Will probably fail to install or seg fault under anything but MRI 1.9.3
+- Will probably fail to install or seg fault under anything but MRI 1.9.3.
 
 See the issues for more.
 
