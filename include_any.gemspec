@@ -19,6 +19,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.extensions    = ['ext/include_any/extconf.rb']
 
+  gem.required_ruby_version = '1.9.3'
+
   gem.add_development_dependency 'bundler', '>= 1.2'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rake-compiler'
